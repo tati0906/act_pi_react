@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f0a1f;
+  --card: #1b1333;
+  --text: #f5f3ff;
+  --muted: #cabffd;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  /* Gradiente continuo que cubre todo el viewport */
+  background-image: linear-gradient(180deg, #4c1d95 0%, #241a45 45%, #120c25 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* evita "cortes" al scrollear */
+  background-size: cover;
+  color: var(--text);
+  min-height: 100dvh; /* ocupa toda la altura real en móviles/pc */
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01" 1, "ss02" 1;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.card {
+  @apply bg-white/5 backdrop-blur border border-white/10 rounded-2xl shadow-soft;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 font-medium transition;
+}
+
+.btn-primary {
+  @apply bg-primary-600 hover:bg-primary-500 text-white;
+}
+
+.btn-outline {
+  @apply border border-white/20 hover:border-white/40 text-white/90;
+}
+
+.badge {
+  @apply text-xs px-2 py-0.5 rounded-full bg-primary-500/20 text-primary-200;
+}
+
+input, button, select, textarea {
+  @apply focus:outline-none focus:ring-2 focus:ring-primary-500/60;
+}
