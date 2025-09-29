@@ -13,7 +13,7 @@ export const products: Product[] = [
     "name": "Ancheta Clásica Dulce",
     "category": "Anchetas",
     "price": 89000,
-    "img": "/images/ancheta1.svg",
+    "img": "",
     "description": "Galletas, chocolates y bebida, presentación en canasta artesanal."
   },
   {
@@ -21,7 +21,7 @@ export const products: Product[] = [
     "name": "Ancheta Gourmet",
     "category": "Anchetas",
     "price": 149000,
-    "img": "/images/ancheta2.svg",
+    "img": "",
     "description": "Quesos, frutos secos, mermelada artesanal y vino sin alcohol."
   },
   {
@@ -29,7 +29,7 @@ export const products: Product[] = [
     "name": "Ancheta Saludable",
     "category": "Anchetas",
     "price": 119000,
-    "img": "/images/ancheta3.svg",
+    "img": "",
     "description": "Frutas frescas, granola y snacks libres de azúcar."
   },
   {
@@ -37,7 +37,7 @@ export const products: Product[] = [
     "name": "Ancheta Premium",
     "category": "Anchetas",
     "price": 199000,
-    "img": "/images/ancheta4.svg",
+    "img": "",
     "description": "Selección premium con chocolates finos y café especial."
   },
   {
@@ -45,7 +45,7 @@ export const products: Product[] = [
     "name": "Ancheta Café Lover",
     "category": "Anchetas",
     "price": 129000,
-    "img": "/images/ancheta5.svg",
+    "img": "",
     "description": "Café de origen, taza personalizada y galletas artesanales."
   },
   {
@@ -53,7 +53,7 @@ export const products: Product[] = [
     "name": "Ancheta Para Él",
     "category": "Anchetas",
     "price": 139000,
-    "img": "/images/ancheta6.svg",
+    "img": "",
     "description": "Snacks salados, cerveza sin alcohol y grooming kit básico."
   },
   {
@@ -61,7 +61,7 @@ export const products: Product[] = [
     "name": "Ancheta Para Ella",
     "category": "Anchetas",
     "price": 139000,
-    "img": "/images/ancheta7.svg",
+    "img": "",
     "description": "Chocolates, vela aromática y mascarilla facial."
   },
   {
@@ -69,7 +69,7 @@ export const products: Product[] = [
     "name": "Ancheta Cumpleaños",
     "category": "Anchetas",
     "price": 99000,
-    "img": "/images/ancheta8.svg",
+    "img": "",
     "description": "Mini torta, vela de cumpleaños y tarjeta personalizada."
   },
   {
@@ -77,7 +77,7 @@ export const products: Product[] = [
     "name": "Desayuno Sorpresa Clásico",
     "category": "Desayunos",
     "price": 79000,
-    "img": "/images/desayuno1.svg",
+    "img": "",
     "description": "Sandwich, jugo natural, fruta y detalle floral."
   },
   {
@@ -85,7 +85,7 @@ export const products: Product[] = [
     "name": "Desayuno Fit",
     "category": "Desayunos",
     "price": 89000,
-    "img": "/images/desayuno2.svg",
+    "img": "",
     "description": "Yogurt griego, granola, fruta fresca y té."
   },
   {
@@ -93,7 +93,7 @@ export const products: Product[] = [
     "name": "Desayuno Gourmet",
     "category": "Desayunos",
     "price": 119000,
-    "img": "/images/desayuno3.svg",
+    "img": "",
     "description": "Croissant, jamón serrano, queso y café especial."
   },
   {
@@ -101,7 +101,7 @@ export const products: Product[] = [
     "name": "Desayuno Cumpleañero",
     "category": "Desayunos",
     "price": 99000,
-    "img": "/images/desayuno4.svg",
+    "img": "",
     "description": "Mini torta, globo y selección dulce."
   },
   {
@@ -109,7 +109,7 @@ export const products: Product[] = [
     "name": "Desayuno Romántico",
     "category": "Desayunos",
     "price": 129000,
-    "img": "/images/desayuno5.svg",
+    "img": "",
     "description": "Fresas con chocolate, bebida caliente y carta."
   },
   {
@@ -117,7 +117,7 @@ export const products: Product[] = [
     "name": "Desayuno Infantil",
     "category": "Desayunos",
     "price": 79000,
-    "img": "/images/desayuno6.svg",
+    "img": "",
     "description": "Opciones divertidas y nutritivas para peques."
   },
   {
@@ -125,7 +125,7 @@ export const products: Product[] = [
     "name": "Desayuno Ejecutivo",
     "category": "Desayunos",
     "price": 109000,
-    "img": "/images/desayuno7.svg",
+    "img": "",
     "description": "Wrap gourmet, mix de frutos secos y café."
   },
   {
@@ -133,7 +133,7 @@ export const products: Product[] = [
     "name": "Desayuno Sin Gluten",
     "category": "Desayunos",
     "price": 115000,
-    "img": "/images/desayuno8.svg",
+    "img": "",
     "description": "Pan y snacks sin gluten, fruta y bebida."
   },
   {
@@ -141,7 +141,7 @@ export const products: Product[] = [
     "name": "Decoración Cumpleaños Base",
     "category": "Decoraciones",
     "price": 249000,
-    "img": "/images/deco1.svg",
+    "img": "",
     "description": "Arco de globos pequeño y banner de feliz cumpleaños."
   },
   {
@@ -149,7 +149,7 @@ export const products: Product[] = [
     "name": "Decoración Romántica",
     "category": "Decoraciones",
     "price": 289000,
-    "img": "/images/deco2.svg",
+    "img": "",
     "description": "Pétalos, velas, globos y letrero personalizado."
   },
   {
@@ -157,7 +157,7 @@ export const products: Product[] = [
     "name": "Baby Shower",
     "category": "Decoraciones",
     "price": 329000,
-    "img": "/images/deco3.svg",
+    "img": "",
     "description": "Mesa temática, backdrop y recordatorios."
   },
   {
@@ -165,7 +165,7 @@ export const products: Product[] = [
     "name": "Decoración Temática Gamer",
     "category": "Decoraciones",
     "price": 299000,
-    "img": "/images/deco4.svg",
+    "img": "",
     "description": "Backdrops, globos y props gamer."
   },
   {
@@ -173,7 +173,7 @@ export const products: Product[] = [
     "name": "Decoración Aniversario",
     "category": "Decoraciones",
     "price": 279000,
-    "img": "/images/deco5.svg",
+    "img": "",
     "description": "Setup elegante en tonos púrpura y dorado."
   },
   {
@@ -181,7 +181,7 @@ export const products: Product[] = [
     "name": "Navidad en Casa",
     "category": "Decoraciones",
     "price": 349000,
-    "img": "/images/deco6.svg",
+    "img": "",
     "description": "Guirnaldas, centros de mesa y mini árbol."
   },
   {
@@ -189,7 +189,7 @@ export const products: Product[] = [
     "name": "Día del Padre",
     "category": "Decoraciones",
     "price": 269000,
-    "img": "/images/deco7.svg",
+    "img": "",
     "description": "Temática masculina con detalles artesanales."
   },
   {
@@ -197,7 +197,7 @@ export const products: Product[] = [
     "name": "Día de la Madre",
     "category": "Decoraciones",
     "price": 289000,
-    "img": "/images/deco8.svg",
+    "img": "",
     "description": "Arreglo floral, globos y detalles románticos."
   }
 ];

@@ -8,7 +8,6 @@ export default function ProductCard({ p }: { p: Product }) {
 
   return (
     <div className="card flex flex-col overflow-hidden hover:scale-[1.02] transition">
-      <img src={p.img} alt={p.name} className="w-full h-40 object-cover" />
       <div className="p-4 flex-1 flex flex-col">
         <h3 className="text-lg font-semibold">{p.name}</h3>
         <p className="text-purple-200 text-sm mt-1 line-clamp-2">
