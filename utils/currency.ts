@@ -5,3 +5,4 @@ export function formatCOP(value: number): string {
     maximumFractionDigits: 0,
   }).format(value);
 }
+// Función utilitaria para dar formato a números en Pesos Colombianos (COP)

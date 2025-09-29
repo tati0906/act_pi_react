@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --bg: #0f0a1f;
   --card: #1b1333;

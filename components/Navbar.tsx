@@ -12,13 +12,16 @@ export default function Navbar() {
         <Link href="/" className="text-xl font-bold tracking-tight">
           <span className="text-primary-300">Purple</span>Gifts
         </Link>
+        {/* Encabezado principal del sitio (Navbar) */}
         <nav className="ml-auto flex items-center gap-6 text-sm">
           <Link href="/#anchetas" className="hover:text-primary-200">Anchetas</Link>
           <Link href="/#desayunos" className="hover:text-primary-200">Desayunos</Link>
           <Link href="/#decoraciones" className="hover:text-primary-200">Decoraciones</Link>
+           {/* Enlaces de navegación internos a secciones de la página */}
           <Link href="/cart" className="btn btn-outline">
             Carrito · {count} · {formatCOP(total)}
           </Link>
+          {/* Botón especial para ir al carrito */}
         </nav>
       </div>
     </header>

@@ -19,3 +19,4 @@ export default function Section({
     </section>
   );
 }
+{/* Este componente que muestra nombre, descripción, precio y botón de compra */}
